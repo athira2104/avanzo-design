@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Contact Page Container -->
+    <div class="min-h-screen flex flex-col items-center justify-center">
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-extrabold text-gray-800">Contact Us</h1>
+            <p class="text-gray-600 mt-2">We would love to hear from you! Please fill out the form below.</p>
+        </div>
+
+        <!-- Contact Form Container -->
+        <div class="w-full max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Contact Information -->
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Our Contact Info</h2>
+                    <p class="text-gray-600 mb-4">
+                        Feel free to reach out to us using the form or the contact details below.
+                    </p>
+                    <ul class="space-y-4">
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16.828 14.828a4 4 0 010-5.656m-4.95-4.95a10.027 10.027 0 000 15.556M9 16.828a4 4 0 010-5.656" />
+                            </svg>
+                            <span>+91 73561 11128</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-3" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 3H4a2 2 0 00-1.997 2.884zM10 12l-7.926-3.963A1.992 1.992 0 002 9v6a2 2 0 002 2h12a2 2 0 002-2V9a1.992 1.992 0 00-.074-.963L10 12z" />
+                            </svg>
+                            <span>info@avanzosolutions.in</span>
+                        </li>
+                        <li class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-pink-500 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 10h.01M12 10h.01M16 10h.01M21 16.72l-5.62-3.72m0 0l-5.62 3.72m5.62-3.72v-7.44m5.62 3.72v7.44M3 6l9 6 9-6M3 18l9-6 9 6" />
+                            </svg>
+                            <span>
+                                NRA-89,Whitefield,Puthurkkara,<br>
+                                Ayyanthole,Thrissur,680003<br></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Form -->
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h2>
+                    <form action="#" method="POST" class="space-y-6">
+                        <!-- Name -->
+                        <div>
+                            <label for="name" class="block text-gray-700 font-medium">Your Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                placeholder="Enter your name" 
+                                required 
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
+                            >
+                        </div>
+                        <!-- Email -->
+                        <div>
+                            <label for="email" class="block text-gray-700 font-medium">Your Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                placeholder="Enter your email address" 
+                                required 
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
+                            >
+                        </div>
+                        <!-- Message -->
+                        <div>
+                            <label for="message" class="block text-gray-700 font-medium">Your Message</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                rows="5" 
+                                placeholder="Write your message here..." 
+                                required 
+                                class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-500"
+                            ></textarea>
+                        </div>
+                        <!-- Submit Button -->
+                        <div>
+                            <button 
+                                type="submit" 
+                                class="w-full bg-pink-500 text-white py-2 px-4 rounded-lg hover:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500"
+                            >
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
